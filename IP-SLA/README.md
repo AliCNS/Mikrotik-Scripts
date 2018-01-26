@@ -1,6 +1,6 @@
-OK, here it is. 
+Pulled from https://forum.mikrotik.com/viewtopic.php?f=1&t=84734#p444065
 
-The below script is a "setup" to create all the items necessary to setup a monitor on one IP address. By its self, this setup does nothing but monitor one ip address and based on the results, sets a global variable for to "up" or "down". You need another "failover" script to monitor these global variables and take action. I'll post my failover script shortly. 
+This script is a "setup" to create all the items necessary to setup a monitor on one IP address. By its self, this setup does nothing but monitor one ip address and based on the results, sets a global variable for to "up" or "down". You need another "failover" script to monitor these global variables and take action. I'll post my failover script shortly. 
 
 Here is what the setup script does though: 
 1. Creates a "probe" script & schedule that runs a ping and stores the latency 
